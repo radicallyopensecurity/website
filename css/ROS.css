@@ -1,0 +1,744 @@
+
+/***
+ * General
+ */
+
+html
+{
+	background-color: #0f0f0f
+}
+
+body
+{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 10px
+}
+
+.no-top
+{
+	margin-top: 0
+}
+
+a img
+{
+	border-width: 0
+}
+
+
+/***
+ * Header
+ */
+
+header
+{
+	display: block;
+	text-align: center
+}
+
+header p
+{
+	margin: 0;
+	padding: .5em 0 .75em 0;
+	background-color: #333;
+	color: #7a7a7a;
+	font-family: opensans-semibold, sans-serif;
+	font-size: 160%;
+	letter-spacing: 1px
+}
+
+header ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: .65em 0;
+	background-color: #161415;
+	text-transform: uppercase;
+	
+	font-family: opensans-bold, sans-serif;
+	letter-spacing: 2.5px;
+	font-size: 12px
+}
+
+header ul li
+{
+	display: inline-block;
+	padding: 8px 13px
+}
+
+header ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 0 .2em;
+	transition: color 0.2s ease-in-out 0s
+}
+
+header ul li.current a,
+header ul li a:hover
+{
+	color: #f06000
+}
+
+
+/***
+ * Content
+ */
+
+div.content-outer
+{
+	min-height: 46.5em
+}
+
+div.content-inner
+{
+	font-size: 130%;
+	margin: 0 auto;
+	max-width: 72.5em;
+	padding: 1.5em
+}
+
+
+/***
+ * Home
+ */
+
+#home
+{
+	background: #1f1f1f url(../images/background-stairs.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	min-height: 850px
+}
+
+#home .content-inner
+{
+	padding-top: 4em
+}
+
+#home .content-inner p
+{
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%
+}
+
+#home .content-inner p:first-child
+{
+	margin-top: 0
+}
+
+#home .content-inner p:first-child
+{
+	float: left;
+	margin-right: 3.5em
+}
+
+#home .content-inner p img
+{
+	width: 384px;
+	margin-left: -1em
+}
+
+#home .content-inner h2
+{
+	font-size: 130%;
+	margin-top: 2em;
+	margin-bottom: 1.75em;
+	color: #f06000;
+	font-family: opensans-semibold, sans-serif
+}
+
+#home .content-inner p
+{
+	line-height: 1.7em
+}
+
+
+/***
+ * Contact
+ */
+
+#contact
+{
+	background-color: #000;
+	color: #636363
+}
+
+#contact .content-inner
+{
+	font-family: opensans-regular, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	padding-top: 2.5em
+}
+
+#contact #contact-photo
+{
+	float: left;
+	margin-left: 4em;
+	margin-right: 2.75em
+}
+
+#contact #contact-text
+{
+	margin-right: 3em
+}
+
+#contact p strong
+{
+	display: block;
+	font-family: opensans-regular, sans-serif;
+	font-size: 105%;
+	color: #fff;
+	margin-top: -1em;
+	margin-bottom: .25em
+}
+
+#contact .content-inner div div
+{
+	float: left;
+	margin-top: 1em;
+	margin-right: 2em
+}
+
+#contact .content-inner div div p:last-child
+{
+	margin-top: -.75em
+}
+
+#contact div a
+{
+	color: #f06000;
+	transition: color 0.2s ease-in-out 0s;
+	text-decoration: none
+}
+
+#contact div a:hover
+{
+	color: #fff
+}
+
+#contact #contact-map
+{
+	margin-top: 2em
+}
+
+
+/***
+ * Business Model
+ */
+
+#business-model
+{
+	background-color: #333;
+	color: #7a7a7a;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+#business-model #bm-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+#business-model #bm-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+#business-model #bm-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%
+}
+
+#business-model #bm-text p
+{
+	margin: 2em 0
+}
+
+#business-model #bm-text a
+{
+	color: #11abb0;
+	transition: color 0.2s ease-in-out 0s;
+	text-decoration: none
+}
+
+#business-model #bm-text a:hover
+{
+	color: #313131
+}
+
+
+/***
+ * Core Principles
+ */
+
+#principles
+{
+	background-color: #333;
+	color: #7a7a7a;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+#principles #principles-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+#principles #principles-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+#principles #principles-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%
+}
+
+#principles #principles-text p
+{
+	margin: 2em 0
+}
+
+#principles ul
+{
+	margin-top: 2em;
+	margin-left: 0;
+	padding-left: 0;
+	color: #f06000;
+	list-style-type: none
+}
+
+#principles li
+{
+	margin-bottom: 1.75em
+}
+
+#principles dt
+{
+	text-transform: uppercase;
+	font-family: opensans-semibold, sans-serif;
+	font-size: 95%
+}
+
+#principles dd
+{
+	margin-left: 0;
+	padding-left: 0;
+	color: #7a7a7a
+}
+
+
+/***
+ * Services
+ */
+
+#services
+{
+	background-color: #333;
+	color: #7a7a7a;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+#services #services-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+#services #services-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+#services #services-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%
+}
+
+#services #services-text p
+{
+	margin: -.5em 0 0 0
+}
+
+#services ul
+{
+	margin-top: 2em;
+	margin-left: 0;
+	padding-left: 0;
+	color: #f06000;
+	list-style-type: none
+}
+
+#services li
+{
+	margin-bottom: .4em;
+	text-transform: uppercase;
+	font-family: opensans-semibold, sans-serif;
+	font-size: 95%;
+	letter-spacing: 1px
+}
+
+#services #services-text a
+{
+	color: #11abb0;
+	transition: color 0.2s ease-in-out 0s;
+	text-decoration: none
+}
+
+#services #services-text a:hover
+{
+	color: #313131
+}
+
+
+/***
+ * Portfolio
+ */
+
+#portfolio
+{
+	background-color: #333;
+	color: #7a7a7a;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+#portfolio #portfolio-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+#portfolio #portfolio-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+#portfolio #portfolio-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+	margin-bottom: 2.75em
+}
+
+#portfolio #portfolio-text p
+{
+	margin: 0 0 2em 0
+}
+
+#portfolio #portfolio-text a
+{
+	color: #11abb0;
+	transition: color 0.2s ease-in-out 0s;
+	text-decoration: none
+}
+
+#portfolio #portfolio-text a:hover
+{
+	color: #313131
+}
+
+
+/***
+ * Team (overview)
+ */
+
+#team-overview
+{
+	background-color: #ebeeee;
+	padding-bottom: 5.5em
+}
+
+#team-overview .content-inner
+{
+	max-width: 1060px !important
+}
+
+#team-overview .team-category
+{
+	margin-left: 3em
+}
+
+#team-overview .team-category h2
+{
+	color: #f06000;
+	font-family: opensans-semibold, sans-serif;
+	font-size: 145%;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 1.75em;
+	margin-bottom: 0;
+	letter-spacing: 1px
+}
+
+#team-overview .team-category ul
+{
+	list-style-type: none;
+	margin: .75em 0 0 0;
+	padding: 0;
+	overflow: hidden
+}
+
+#team-overview .team-category li
+{
+	width: 255px;
+	float: left;
+	margin: .75em 0
+}
+
+#team-overview .team-category p
+{
+	margin: .4em 0;
+	padding: 0
+}
+
+#team-overview .team-category a
+{
+	color: #f06000;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: opensans-semibold, sans-serif
+}
+
+#team-overview .team-category img
+{
+	width: 215px;
+	height: 215px;
+	margin: 0;
+	padding: 0
+}
+
+
+/***
+ * Team members
+ */
+
+#team-member
+{
+	background-color: #000;
+	overflow: hidden;
+	padding-top: 1.5em;
+	padding-bottom: 5.5em;
+	min-height: 0
+}
+
+#team-member .content-inner
+{
+	max-width: 75.5em
+}
+
+#team-member #tm-image
+{
+	float: left;
+	margin-right: 3em;
+	width: 300px
+}
+
+#team-member #tm-image img
+{
+	max-width: 300px
+}
+
+#team-member #tm-desc
+{
+	float: left;
+	font-family: opensans-regular, sans-serif;
+	font-size: 15px;
+	color: #838c95;
+	max-width: 640px
+}
+
+#team-member #tm-desc h2
+{
+	color: #f06000;
+	font: 20px/36px opensans-semibold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: .67em;
+	margin-bottom: 1em
+}
+
+#team-member #tm-desc h3
+{
+	color: #313131;
+	font-family: opensans-bold, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: .5em
+}
+
+#team-member #tm-desc p
+{
+	margin: 1em 0 2em 0;
+	line-height: 1.725em
+}
+
+#team-member #tm-desc a
+{
+	color: #f06000;
+	text-decoration: none;
+	transition: color 0.2s ease-in-out 0s
+}
+
+#team-member #tm-desc a:hover
+{
+	color: #fff
+}
+
+#team-member #tm-desc ul
+{
+	list-style-type: none;
+	margin-left: 2em;
+	padding-left: 0
+}
+
+#team-member #tm-desc > ul > li
+{
+	margin: .67em 0
+}
+
+#team-member #tm-desc > ul > li > ul
+{
+	margin-top: .5em;
+	padding: .125em 0 .5em 0
+}
+
+#team-member #tm-desc > ul > li > ul > li
+{
+	margin: .25em 0
+}
+
+#team-member #tm-desc li:before
+{
+	content: "\2022";
+	color: #F06000;
+	padding-right: 1em;
+	margin: 0 0 0 -1.5em
+}
+
+
+/***
+ * Footer
+ */
+
+footer
+{
+	clear: both;
+	display: block;
+	background-color: #0f0f0f;
+	color: #fff;
+	text-align: center;
+	padding: 0 .33em;
+	font-size: 140%;
+	font-family: opensans-regular, sans-serif
+}
+
+footer p
+{
+	margin: .9em 0 .9em 0
+}
+
+footer p:last-child
+{
+	margin-bottom: 1.25em
+}
+
+footer a
+{
+	color: #f06000;
+	text-decoration: none
+}
+
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) */
+
+/* Open Sans */
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg'),
+         url('../fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensans-semibold';
+    src: url('../fonts/opensans/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/opensans/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg'),
+         url('../fonts/opensans/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/opensans/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/opensans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg'),
+         url('../fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SVG should be before woff and ttf for Chrome on Windows bug
+   FIXED for Font-Face Chrome Rendering
+================================================================================ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+   @font-face {
+   font-family: 'opensans-semibold';
+   src: url('../fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+   }
+
+   @font-face {
+   font-family: 'opensans-bold';
+   src: url('../fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+   }
+
+}

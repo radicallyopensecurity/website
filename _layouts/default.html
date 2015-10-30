@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<title>Radically Open Security</title>
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel=stylesheet href=css/ROS.css>
+{% assign current = page.url | downcase | split: '/' %}
+
+<header>
+	
+	<p>Radically Open Security
+	
+	<ul>
+		<li {% if current[1] == 'index.htm' %}class=current{% endif %} {% if page.url == '/' %}class=current{% endif %}><a href=index.htm>Home</a>
+		<li {% if current[1] == 'business-model.htm' %}class=current{% endif %}><a href=business-model.htm>Non-profit?</a>
+		<li {% if current[1] == 'principles.htm' %}class=current{% endif %}><a href=principles.htm>Core principles</a>
+		<li {% if current[1] == 'services.htm' %}class=current{% endif %}><a href=services.htm>Services</a>
+		<li {% if current[1] == 'team.htm' %}class=current{% endif %}><a href=team.htm>Team</a>
+		<li><a href=http://blog.radicallyopensecurity.com/>Blog</a>
+		<li {% if current[1] == 'portfolio.htm' %}class=current{% endif %}><a href=portfolio.htm>Portfolio</a>
+		<li {% if current[1] == 'contact.htm' %}class=current{% endif %}><a href=contact.htm>Contact us</a>
+	</ul>
+	
+</header>
+
+
+{{ content }}
+<footer>
+	
+	<p><a href=mailto:info@radicallyopensecurity.com>info@radicallyopensecurity.com</a>
+	<p>© 2015 Radically Open Security
+	
+</footer>
