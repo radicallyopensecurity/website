@@ -39,12 +39,26 @@ header
 header p
 {
 	margin: 0;
-	padding: .5em 0 .75em 0;
 	background-color: #333;
 	color: #7a7a7a;
 	font-family: opensans-semibold, sans-serif;
 	font-size: 160%;
 	letter-spacing: 1px
+}
+
+header > p > a
+{
+	display: block;
+	padding: .5em 0 .75em 0;
+	color: #7a7a7a;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out 0s
+}
+
+header > p > a:hover
+{
+	background-color: #161415;
+	color: #f06000
 }
 
 header ul
@@ -458,12 +472,13 @@ div.content-inner
 	font-family: opensans-bold, sans-serif;
 	font-weight: 400;
 	font-size: 150%;
-	margin-bottom: 2.75em
+	margin-top: 1.5em;
+	margin-bottom: 1.25em
 }
 
 #portfolio #portfolio-text p
 {
-	margin: 0 0 2em 0
+	margin: 0 0 .75em 0
 }
 
 #portfolio #portfolio-text a
@@ -476,6 +491,185 @@ div.content-inner
 #portfolio #portfolio-text a:hover
 {
 	color: #313131
+}
+
+#portfolio ul
+{
+	margin-top: 2em;
+	margin-left: 0;
+	padding-left: 0;
+	color: #f06000;
+	list-style-type: none
+}
+
+#portfolio li
+{
+	width: 50%;
+	float: left;
+	margin-bottom: 2.75em
+}
+
+#portfolio dt
+{
+	text-transform: uppercase;
+	font-family: opensans-semibold, sans-serif;
+	font-size: 95%
+}
+
+#portfolio dl a
+{
+	color: #f06000 !important
+}
+
+#portfolio dd
+{
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 10%;
+	color: #7a7a7a
+}
+
+
+/***
+ * Testimonials
+ */
+
+.testimonial
+{
+	background-color: #333;
+	color: #7a7a7a;
+	color: #bbb;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+.testimonial a
+{
+	color: #f06000;
+	text-decoration: none
+}
+
+.testimonial #testimonial-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+.testimonial #testimonial-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+.testimonial #testimonial-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+	margin-top: 1.5em;
+	margin-bottom: 1.25em
+}
+
+.testimonial #testimonial-text p
+{
+	margin: 0 0 1.25em 0
+}
+
+.testimonial .quote
+{
+	background-color: #ccb;
+	color: #333;
+	padding: .5em;
+	font-size: 120%;
+	margin: 2em 0 !important;
+	
+	background-color: #000;
+	color: #f06000
+	
+}
+
+
+/***
+ * Careers
+ */
+
+#careers
+{
+	background-color: #333;
+	color: #ccc;
+	font-family: opensans-regular, sans-serif;
+	font-size: 115%;
+	line-height: 26px;
+	font-weight: 400;
+	padding-top: 1.5em;
+	padding-bottom: 7em
+}
+
+#contact-careers
+{
+	margin-top: 5em;
+	padding-left: 100em;
+	padding-right: 100em;
+	width: 100em;
+	margin-left: -100em;
+	background-color: #333;
+	overflow: hidden;
+	color: #ccc;
+	line-height: 26px;
+	margin-bottom: -1.5em
+}
+
+#careers-image
+{
+	float: left;
+	margin-left: 3.5em;
+	margin-right: 7.75em
+}
+
+#careers-text
+{
+	display: inline-block;
+	max-width: 48.5em
+}
+
+#careers-text h2
+{
+	color: #fff;
+	font-family: opensans-bold, sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+	margin-bottom: 1.5em
+}
+
+#careers-text h3
+{
+	font-family: opensans-bold, sans-serif;
+	margin-top: 1.75em;
+	padding-top: 1.75em;
+	border-top: 2px solid #fff
+}
+
+#careers-text p
+{
+	margin: 1.5em 0
+}
+
+#careers-text a
+{
+	color: #f06000;
+	text-decoration: none
+}
+
+#careers-current-opportunities
+{
+	color: #f06000;
+	font-family: opensans-bold, sans-serif
 }
 
 
