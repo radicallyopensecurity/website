@@ -765,6 +765,7 @@ div.content-inner
 #team-member #tm-image
 {
 	float: left;
+	text-align: right;
 	margin-right: 3em;
 	width: 300px
 }
